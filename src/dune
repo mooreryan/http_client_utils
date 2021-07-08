@@ -1,0 +1,10 @@
+(library
+ (name http_client_utils)
+ (public_name http_client_utils)
+ (libraries core_kernel async cohttp-async lambdasoup)
+ (inline_tests)
+ (instrumentation
+  (backend bisect_ppx))
+ (preprocess (pps ppx_jane)))
+
+(documentation)
