@@ -19,7 +19,7 @@
   (bisect_ppx :with-test)
   (ppx_expect :with-test)
   (ppx_inline_test :with-test)
-   core_kernel
+   core
    core_bench {dev}
    ppx_jane
    cohttp-async
